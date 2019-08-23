@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace myFirstConsoleApp2
 {
     class Program
@@ -44,7 +45,6 @@ namespace myFirstConsoleApp2
 
             Console.WriteLine($"{firstName} {lastName} visited on {purchaseDate}");
             Console.ReadLine(); // This will stop the program waiting for user input. B
-
         }
     }
 }
