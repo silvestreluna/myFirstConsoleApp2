@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "acceptingUserInput", "accep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "numManipulation", "numManipulation\numManipulation.csproj", "{F9AD2B51-654A-415F-92C8-F36EE00ED922}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "letterLoops", "letterLoops\letterLoops.csproj", "{989AD7D3-7964-46AB-B209-D01F10448DFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F9AD2B51-654A-415F-92C8-F36EE00ED922}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9AD2B51-654A-415F-92C8-F36EE00ED922}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9AD2B51-654A-415F-92C8-F36EE00ED922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{989AD7D3-7964-46AB-B209-D01F10448DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989AD7D3-7964-46AB-B209-D01F10448DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989AD7D3-7964-46AB-B209-D01F10448DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989AD7D3-7964-46AB-B209-D01F10448DFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
