@@ -8,17 +8,24 @@ namespace letterLoops
         static void Main(string[] args)
         {
             var inputFromUser = Console.ReadLine();
+            string finalResult = "";
+            int counter = 0;
 
             foreach (var eachLetter in inputFromUser)
             {
-                int indexOfEachLetter = inputFromUser.IndexOf(eachLetter);
+                finalResult += eachLetter.ToString().ToUpper();
 
-                string thisLetter = eachLetter.ToString().ToUpper();
+                for (var item = 0; item < counter; item++)
+                {
+                    var lowerCaseLetter = eachLetter.ToString().ToLower();
+                    finalResult += lowerCaseLetter;
+                }
+                finalResult += "-";
+                counter++;
 
-                Console.WriteLine(indexOfEachLetter);
             }
-            
-            // Console.WriteLine($"{inputFromUser}, ...TEST");
+
+            Console.WriteLine(finalResult.TrimEnd('-'));
         }
     }
 }
