@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myFirstConsoleApp2", "myFir
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "acceptingUserInput", "acceptingUserInput\acceptingUserInput.csproj", "{A89DBD4F-F7B7-4AF9-A1BB-7DF85C43660F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "numManipulation", "numManipulation\numManipulation.csproj", "{F9AD2B51-654A-415F-92C8-F36EE00ED922}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "numManipulation", "numManipulation\numManipulation.csproj", "{F9AD2B51-654A-415F-92C8-F36EE00ED922}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "letterLoops", "letterLoops\letterLoops.csproj", "{989AD7D3-7964-46AB-B209-D01F10448DFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "letterLoops", "letterLoops\letterLoops.csproj", "{989AD7D3-7964-46AB-B209-D01F10448DFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koans", "Koans\Koans.csproj", "{A8C9DE4C-BC67-49B9-9BA3-E50B43A52D81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{989AD7D3-7964-46AB-B209-D01F10448DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{989AD7D3-7964-46AB-B209-D01F10448DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{989AD7D3-7964-46AB-B209-D01F10448DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8C9DE4C-BC67-49B9-9BA3-E50B43A52D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C9DE4C-BC67-49B9-9BA3-E50B43A52D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C9DE4C-BC67-49B9-9BA3-E50B43A52D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C9DE4C-BC67-49B9-9BA3-E50B43A52D81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

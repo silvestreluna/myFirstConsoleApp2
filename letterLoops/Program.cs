@@ -8,6 +8,7 @@ namespace letterLoops
         static void Main(string[] args)
         {
             var inputFromUser = Console.ReadLine();
+            inputFromUser = inputFromUser.Replace(" ", "");
             string finalResult = "";
             int counter = 0;
 
